@@ -8,13 +8,10 @@
  sh -c "$(curl -fsS https://raw.githubusercontent.com/TwoFacesJanus/Medusa/main/installer.sh)"
 ```
 
-## Manual Installation.
-#### Install dependencies:
+## Manual Installation:
 ```sh
-  pip3 install google-cloud-dialogflow
-```
-
-#### Configure:
-```sh
+  git clone https://github.com/TwoFacesJanus/Medusa.git
+  cd Medusa
+  pip3 install -r requirements.txt
   set GOOGLE_APPLICATION_CREDENTIALS src/configuration/medusa.json
 ```
