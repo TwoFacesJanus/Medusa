@@ -24,6 +24,6 @@ class Intent:
         )
 
         
-        print("Fulfillment text: {}\n".format(response.query_result.fulfillment_text))
+        # print("Fulfillment text: {}\n".format(response.query_result.fulfillment_text))
         return str(response.query_result.fulfillment_text)
 
