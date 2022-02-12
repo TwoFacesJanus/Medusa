@@ -1,2 +1,2 @@
-google-cloud-dialogflow
-configparser
+google-cloud-dialogflow==2.11.0
+configparser==5.2.0
