@@ -7,6 +7,8 @@ CENT_PACKAGES="python3 python3-pip git"
 GREEN='\033[1;32m'
 NORMAL='\033[0m'
 
+clear
+
 echo -en "==============$GREEN MEDUSA $NORMAL==============\n"
 
 if cat /etc/*release | grep ^NAME | grep CentOS &>/dev/null; then
