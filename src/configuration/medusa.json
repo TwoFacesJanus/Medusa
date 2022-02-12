@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "medusaproject-341113",
+  "private_key_id": "186a30b7e77a1bd66e4bcc5256a4f26d413ea652",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCMrHc2XJ1Yyb1b\nqqYPpbCEzRoHRdunacr6xTdoeS6krugIASiZE2/nmjrG2BMcf7VElTjq5TiPzRTV\n5OCMwbdRExIrswO/rRsh7VkYvvk7tzJAx1s7xZR7ON6xYh8PplKUwCqVUlKxxW8N\neI3L39OP5WdimyaDB3dN2T37VkykG1sJWKZWvNQp95QHjMF2euRnmP6fNfl6dIJ+\nvxf+V56Mj4oHVkhbvxyyN1JsdflZuVcn/V91HH1VzX4Q4TQ9PwEdlqcL2UpzskXd\npvDkkq+8GvDs4Y4wWcUaEGOJ3/+demVhFBlJATuO4NPYplO/A2vUTWKBjnMM3Iqd\nOk5Um515AgMBAAECggEAAlTYvvO8VIc3a7MBgJCNmI3bqL4y0eyncA41CQwPxqvy\nwtszZIzAFeBmU/sAdMBLF/a51EQgnVrX8GQ+3SZYFvBled2Zf3jrfQhK1JBUX3XS\n+o7d8g4oE/4RIXMlB6SJNCzr0mtkXSI5YR7xNAKi0NI2Ve8zWAhCJRinddMW1Gts\nrwuu8nDc+A0P8rewB+wUb4TVjL0tG3MuMCyWIo8FYWIZqskxr3zAb12lgZgm+rmo\nfc6fUgnN1ESlEOmVVpkT2cnWZ5G7Io6zFGeEZkPfCQbG+DbpXqjs1gwb2JEo08hy\nHReIpDp/3ROTndAUQDXyV2Qj5qelnh6xoZBVH04s/wKBgQDFh62Yu+J3x7u2PFWc\nG9DlC7GKG9vDoIXilCerHAtx6MezNva85uIz7+Z0Fb54L6BineDJyQ+L2jOuDqmj\nojxzmWgac30KvCadpWTIt45d67H3pIOaWsamsSW8Q0oRQtTJA0L3so02ETXhsTNT\nysl6bzgdqXrgohApyh6tdvNG0wKBgQC2UFyHyBJl6QCrNhvTYuMbikWO7rwtI+kh\nxvoHTl1QzTpBX4yRiq3eKh5h1kRaG5v84By2MupJ46onUZwbTm4eYVVumxQAK2M0\nKBc6kmD+SSDQWljJZJvrO2bjS9kgxCwY14RHtTeLgLTgxz239eh/1HOYK3/3CKNZ\nGpwJSKtzAwKBgQCB7zwMKhtQu3wI5itSYyHIaSbCOI0ZZDBt2RM3BV2p8nvasZ8g\np6fIjlhDqEIAgSO5eyzwz2eAkWpJZq/ESeYGDLVkIO/x7c5hCPkA522o7m/E/Nzs\n3iWqZQDzlDfWnuWlzJVypmspU6zj51JiHhTmit6Y9HE17qU/OAtyA7sHrQKBgDEV\n7+PK9VEk674tIk7GqBjpIJM8KcQJkCI8/WJsMemoZ8/kFue0q91N/8Idu2d7WYM7\nH9/aU4QzXMObUGl1s2ZQlHzkGf11sQ8A4Egv0xeDvub5/D+069nos2ntKPeOecTy\nebYIz3yq2YhPfImEFuYb4EePJrPvSnOaG3rQawDbAoGAQX2FHEdLXhFaya1I/ZOc\nmoo9EYvN0gCjQ32rPwFBYG28zSgckDptLi5E4v+WbMEfXv5eueen33OIB5CVcQro\nrRiXW1cQAu+EIj0jKrW8bXmBsBc8DI2WeM93B4KHaQuhgQ3l5JHHddwkZZ1zMHLe\nSFJjW9j3eKjtL17mRiLXhbk=\n-----END PRIVATE KEY-----\n",
+  "client_email": "gorgona@medusaproject-341113.iam.gserviceaccount.com",
+  "client_id": "117362051264574273866",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gorgona%40medusaproject-341113.iam.gserviceaccount.com"
+}
