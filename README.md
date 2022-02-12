@@ -1,5 +1,12 @@
 # Medusa
 
+## Automation Installation.
+#### Just use this in your terminal emulator.
+
+##### Fish
+```sh
+ sh curl
+```
 
 ## Manual Installation.
 #### Install dependencies:
