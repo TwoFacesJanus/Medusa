@@ -25,11 +25,5 @@ class Intent:
 
         
         print("Fulfillment text: {}\n".format(response.query_result.fulfillment_text))
+        return str(response.query_result.fulfillment_text)
 
-
-root = Intent()
-
-while True:
-    print("=" * 20)
-    message = input("Enter your message: ")
-    root.send_message(message)
