@@ -2,6 +2,19 @@
  <img src="https://github.com/TwoFacesJanus/Medusa/blob/main/doc/images/Medusa_icon.png">
 </div>
 
+<div align="center">
+ 
+ [![GitHub license](https://img.shields.io/github/license/TwoFacesJanus/Medusa?style=for-the-badge)](https://github.com/TwoFacesJanus/Medusa/blob/main/LICENSE)
+ ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/TwoFacesJanus/Medusa?style=for-the-badge)
+ ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/TwoFacesJanus/Medusa?style=for-the-badge)
+ ![GitHub all releases](https://img.shields.io/github/downloads/TwoFacesJanus/Medusa/total?style=for-the-badge)
+ ![GitHub language count](https://img.shields.io/github/languages/count/TwoFacesJanus/Medusa?style=for-the-badge)
+ 
+</div>
+
+<div align="center">
+
+</div>
 
 ## Automation Installation.
 #### Just use this in your terminal emulator.
