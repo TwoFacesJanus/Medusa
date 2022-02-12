@@ -14,6 +14,7 @@ class Intent:
         self.session_id = "123456789"
         self.language_code = "en"
     
+    
     def send_message(self, message):
         text_input = dialogflow.TextInput(text=message, language_code=self.language_code)
         query_input = dialogflow.QueryInput(text=text_input)
@@ -22,13 +23,13 @@ class Intent:
             request={"session": self.session, "query_input": query_input}
         )
 
-        print("=" * 20)
-        print("Query text: {}".format(response.query_result.query_text))
+        
         print("Fulfillment text: {}\n".format(response.query_result.fulfillment_text))
 
 
 root = Intent()
 
 while True:
+    print("=" * 20)
     message = input("Enter your message: ")
     root.send_message(message)
