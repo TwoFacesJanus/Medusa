@@ -12,9 +12,8 @@
  
 </div>
 
-<div align="center">
-
-</div>
+## About Medusa
+Medusa - AI Assistant based on DialogFlowAPI
 
 ## Automation Installation.
 #### Just use this in your terminal emulator.
