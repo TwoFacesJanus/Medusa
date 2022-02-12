@@ -1,4 +1,7 @@
-# Medusa
+<div align="center">
+ <img src="https://github.com/TwoFacesJanus/Medusa/blob/main/doc/images/Medusa_icon.png">
+</div>
+
 
 ## Automation Installation.
 #### Just use this in your terminal emulator.
