@@ -1,10 +1,13 @@
 # Medusa
 
 
-Install deps:
+## Manual Installation.
+#### Install dependencies:
+```sh
   pip3 install google-cloud-dialogflow
+```
 
-
-Configure:
-
+#### Configure:
+```sh
   set GOOGLE_APPLICATION_CREDENTIALS src/configuration/medusa.json
+```
