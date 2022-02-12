@@ -3,9 +3,9 @@
 ## Automation Installation.
 #### Just use this in your terminal emulator.
 
-##### Fish
+##### Bash
 ```sh
- sh curl
+ sh -c "$(curl -fsS https://raw.githubusercontent.com/TwoFacesJanus/Medusa/main/installer.sh)"
 ```
 
 ## Manual Installation.
