@@ -22,8 +22,6 @@ class Intent:
         response = self.session_client.detect_intent(
             request={"session": self.session, "query_input": query_input}
         )
-
-        
         # print("Fulfillment text: {}\n".format(response.query_result.fulfillment_text))
         return str(response.query_result.fulfillment_text)
 
