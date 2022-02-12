@@ -1,22 +1,25 @@
-def detect_intent_texts(project_id, session_id, texts, language_code):
-    """Returns the result of detect intent with texts as inputs.
+from google.cloud import dialogflow
 
-    Using the same `session_id` between requests allows continuation
-    of the conversation."""
-    from google.cloud import dialogflow
 
-    session_client = dialogflow.SessionsClient()
+class Intent:
+    def __init__(self):
+        self.configure()
 
-    session = session_client.session_path(project_id, session_id)
-    print("Session path: {}\n".format(session))
+        self.session_client = dialogflow.SessionsClient()
+        self.session = self.session_client.session_path(self.project_id, self.session_id)
 
-    for text in texts:
-        text_input = dialogflow.TextInput(text=text, language_code=language_code)
-
+    
+    def configure(self):
+        self.project_id = "medusaproject-341113"
+        self.session_id = "123456789"
+        self.language_code = "en"
+    
+    def send_message(self, message):
+        text_input = dialogflow.TextInput(text=message, language_code=self.language_code)
         query_input = dialogflow.QueryInput(text=text_input)
 
-        response = session_client.detect_intent(
-            request={"session": session, "query_input": query_input}
+        response = self.session_client.detect_intent(
+            request={"session": self.session, "query_input": query_input}
         )
 
         print("=" * 20)
@@ -24,4 +27,8 @@ def detect_intent_texts(project_id, session_id, texts, language_code):
         print("Fulfillment text: {}\n".format(response.query_result.fulfillment_text))
 
 
-detect_intent_texts("medusaproject-341113", "123456789", ["YOOOO", "what old are you?", "how are you?"], "en")
+root = Intent()
+
+while True:
+    message = input("Enter your message: ")
+    root.send_message(message)
