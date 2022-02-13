@@ -1,7 +1,32 @@
 from google.cloud import dialogflow
 from configparser import ConfigParser
-
 import pyttsx3
+import json
+import random
+
+
+
+class Prepare:
+    def __init__(self):
+        with open("configuration/local_intents.json") as jsonfile:
+            self.local_intents = json.load(jsonfile)
+            jsonfile.close()
+        config = ConfigParser()
+        config.read("configuration/config.ini")
+        
+        self.lang_code = config['DIALOGFLOW']['lang_code']
+    
+    # FIX ME: bad json file. Add questions and returns
+    def search_in_intents(self, message):
+        self.time = self.local_intents['intents'][0]['time'][self.lang_code]
+        self.weather = self.local_intents['intents'][0]['weather'][self.lang_code]
+
+        if message in self.time:
+            print(self.time[random.randint(0, len(self.time)-1)])
+        
+        elif message in self.weather:
+            print(self.time[random.randint(0, len(self.time)-1)])
+
 
 class Intent:
     def __init__(self):
