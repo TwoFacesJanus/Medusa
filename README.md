@@ -2,6 +2,7 @@
  <img src="https://github.com/TwoFacesJanus/Medusa/blob/main/doc/images/Medusa_icon.png">
 </div>
 
+
 <div align="center">
  
  [![GitHub license](https://img.shields.io/github/license/TwoFacesJanus/Medusa?style=for-the-badge)](https://github.com/TwoFacesJanus/Medusa/blob/main/LICENSE)
@@ -12,8 +13,7 @@
  
 </div>
 
-## About Medusa
-Medusa - AI Assistant based on DialogFlowAPI
+
 
 ## Automation Installation.
 #### Just use this in your terminal emulator.
