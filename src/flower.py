@@ -5,7 +5,6 @@ import json
 import random
 
 
-
 class Prepare:
     def __init__(self):
         with open("configuration/local_intents.json") as jsonfile:
