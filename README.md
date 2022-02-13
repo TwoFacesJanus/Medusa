@@ -23,6 +23,10 @@ Medusa - AI Assistant based on DialogFlowAPI
  sh -c "$(curl -fsS https://raw.githubusercontent.com/TwoFacesJanus/Medusa/main/installer.sh)"
 ```
 
+##### Fish
+```sh
+ curl -fsS https://raw.githubusercontent.com/TwoFacesJanus/Medusa/main/installer.sh >> installer.sh && chmod +x installer.sh && ./installer.sh
+
 ## Manual Installation:
 ```sh
   git clone https://github.com/TwoFacesJanus/Medusa.git
