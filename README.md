@@ -26,6 +26,7 @@ Medusa - AI Assistant based on DialogFlowAPI
 ##### Fish
 ```sh
  curl -fsS  curl -fsS https://raw.githubusercontent.com/TwoFacesJanus/Medusa/main/installer.sh >> installer.sh && chmod +x installer.sh && ./installer.sh
+```
 
 ## Manual Installation:
 ```sh
