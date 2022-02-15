@@ -3,7 +3,7 @@ from configparser import ConfigParser
 import pyttsx3
 import json
 import random
-
+from common import cronus
 
 class Prepare:
     def __init__(self):
