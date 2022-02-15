@@ -82,6 +82,10 @@ git clone $GIT_REPOSITORY &>/dev/null
 echo -en "\n  | [$GREEN INFO $NORMAL]=> Installing Dependencies..."
 pip3 install -r Medusa/requirements.txt &>/dev/null
 echo -en "\n  | [$GREEN INFO $NORMAL]=> Done\n"
+
+echo -en "\n  | [$GREEN INFO $NORMAL]=> Testing Libraries..."
+python3 Medusa/tests/dependencies.py
+echo -en "\n  | [$GREEN INFO $NORMAL]=> Done\n"
 echo -en "<=========================>\n"
 
 
