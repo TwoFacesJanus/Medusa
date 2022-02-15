@@ -5,17 +5,23 @@ class Crono:
     def chronius():
         current_time = datetime.now()
         current_hour = int(current_time.hour)
+        current_mins = str(current_time.minute)
+
+        message = None
+
         if 5 <= current_hour <= 12:
-            return "Good Morning"
+            message = "Good Morning"
         
         elif 12 <= current_hour <= 16:
-            return "Good Day"
+            message = "Good Day"
 
         elif 16 <= current_hour <= 20:
-            return "Good Evening"
+            message = "Good Evening"
 
         elif 20 <= current_hour <= 2:
-            return "Good Night"
+            message = "Good Night"
 
         else:
-            return "Can't you sleep?"
+            message = "Can't you sleep?"
+
+        return str(current_hour) + ":" + current_mins + ". " + message
