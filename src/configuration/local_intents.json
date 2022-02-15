@@ -9,7 +9,7 @@
             "weather":
                 {
                     "ru":["погода", "снег", "солнечно", "облачно"],
-                    "en":["weaher", "snow", "sunny", "cloudy"]
+                    "en":["weather", "snow", "sunny", "cloudy"]
                 },
         }
     ]
