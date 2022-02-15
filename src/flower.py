@@ -19,10 +19,7 @@ class Prepare:
         self.weather = self.local_intents['intents'][0]['weather'][self.lang_code]
         print(self.time)
         if message in self.time:
-            current_time = datetime.now()
-            current_hour = str(current_time.hour)
-            current_mins = str(current_time.minute)
-            return current_hour + ":" + current_mins + ". " + cronus.Crono().chronius()
+            return cronus.Crono().chronius()
         
         elif message in self.weather:
             print("weather found!")
@@ -31,7 +28,6 @@ class Prepare:
         else:
             print("not found!")
             return "unknown"
-
 
 class Intent:
     def __init__(self):
