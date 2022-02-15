@@ -17,14 +17,17 @@ class Prepare:
     def search_in_intents(self, message):
         self.time = self.local_intents['intents'][0]['time'][self.lang_code]
         self.weather = self.local_intents['intents'][0]['weather'][self.lang_code]
-
+        print(self.time)
         if message in self.time:
-            return "Time Now is 17:00"
-
+            current_time = datetime.now()
+            current_hour = str(current_time.hour)
+            current_mins = str(current_time.minute)
+            return current_hour + ":" + current_mins + ". " + cronus.Crono().chronius()
+        
         elif message in self.weather:
             print("weather found!")
             return "Current Weather is cloudy"
-
+        
         else:
             print("not found!")
             return "unknown"
