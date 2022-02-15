@@ -4,7 +4,6 @@ import pyttsx3
 import json
 import random
 
-
 class Prepare:
     def __init__(self):
         with open("configuration/local_intents.json") as jsonfile:
@@ -15,16 +14,21 @@ class Prepare:
         
         self.lang_code = config['DIALOGFLOW']['lang_code']
     
-    # FIX ME: bad json file. Add questions and returns
+
     def search_in_intents(self, message):
         self.time = self.local_intents['intents'][0]['time'][self.lang_code]
         self.weather = self.local_intents['intents'][0]['weather'][self.lang_code]
 
         if message in self.time:
-            print(self.time[random.randint(0, len(self.time)-1)])
+            return "Time Now is 17:00"
         
         elif message in self.weather:
-            print(self.time[random.randint(0, len(self.time)-1)])
+            print("weather found!")
+            return "Current Weather is cloudy"
+        
+        else:
+            print("not found!")
+            return "unknown"
 
 
 class Intent:
@@ -70,9 +74,15 @@ class TTSX:
 
 intent = Intent()
 ttsx = TTSX()
+prepare = Prepare()
 
 
 while True:
     message = input("Enter your message: ")
-    to_say = intent.send_message(message)
+    message = message.lower()
+    to_say = prepare.search_in_intents(message.lower)
+
+    if to_say == "unknown":
+        to_say = intent.send_message(message)
+
     ttsx.say(to_say)
